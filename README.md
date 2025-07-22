@@ -34,6 +34,18 @@ Ensure that there is a file in the `. /data/` directory:
 
 
 
+In addition we have prepared the relevant raw dataset as follows: 
+
+- MMFC_drug_protein.csv:
+
+  This dataset records drug-protein interactions, with each record containing a Drug Bank ID (e.g., DB02010) representing a specific drug, and an Ensembl protein ID (e.g., 9606. ENSP00000380044) representing a human protein. These pairings demonstrate the possible interactions of different drugs with one or more proteins, providing fundamental data to support the study of drug action mechanisms and drug development.
+
+- COVID-19_drug_protein.csv: 
+
+  This dataset provides information on COVID-19-related drugs and their interacting proteins. Each record contains the Drug Bank ID of the specific drug (e.g. DB02338) and the Ensembl protein ID of the corresponding human protein (e.g. 9606.ENSP00000403768). This dataset aims to reveal drugs that may be effective against COVID-19 and their targets of action, providing a scientific basis for the selection of therapeutic regimens and the development of new drugs. With this pairing information, researchers can further explore the mechanisms of drug-protein interactions and how these drugs can be utilized to more effectively combat neocoronaviruses.
+
+
+
 These files contain drug node features, protein node features, and drug-protein association information, respectively.
 
 
